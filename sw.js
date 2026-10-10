@@ -1,4 +1,4 @@
-const CACHE = "chasse-202610052335";
+const CACHE = "chasse-202610101303";
 const FILES = ["./", "./manifest.webmanifest", "./icone-192.png", "./icone-512.png"];
 self.addEventListener("install", event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)));
